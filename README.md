@@ -7,12 +7,14 @@ So, I've created one for [Liberty Unleashed](http://liberty-unleashed.co.uk/), a
 
 **Instructions:**
 Put the script folder "GTA V Spawn Camera" into your Scripts folder of your server.
-The proper directory structure should be: *MainServerDir/Scripts/GTA V Spawn Camera"
+The proper directory structure should be: *MainServerDir/Scripts/GTA V Spawn Camera*
 
 Then, add the script to content.xml, located within the LU folder of your server.
+
 `<script folder="GTA V Spawn Camera" />`
 
-Then voila! Normal spawn is disabled, so in order to use this, you must use 
+Then voila! Normal spawn is disabled, so in order to use this, you must use
+
 `GTAVSpawn ( Player pPlayer , Vector pPosition );`
 
 The spawn camera script takes care of the rest.
